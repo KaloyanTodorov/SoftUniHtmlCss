@@ -1,6 +1,6 @@
 # SoftUni Front-end course. May 2019
 HTML, CSS homeworks, exercises, labs, exams.
-### Course include following topics:
+### Course includes following topics:
 * Introduction to HTML and CSS
 * HTML structure
 * CSS & Typography
