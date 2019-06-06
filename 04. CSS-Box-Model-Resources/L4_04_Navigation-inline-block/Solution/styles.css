@@ -1,0 +1,36 @@
+html {
+    font: 16px/1.2;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font: 1em/1.2 Georgia, serif;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    margin-top: 2em;
+}
+
+.site-title {
+    display: inline-block;
+}
+
+.site-nav {
+    display: inline-block;
+}
+
+.site-nav li {
+    display: inline-block;
+    padding: 2em;   
+}
+
+.site-nav li a {
+    text-decoration: none;
+    color: #0A0;
+}

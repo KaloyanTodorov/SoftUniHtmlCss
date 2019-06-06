@@ -1,0 +1,17 @@
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th{
+    border-bottom: 1px solid grey;
+}
+
+td:nth-child(2) {
+    color: cadetblue
+}

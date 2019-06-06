@@ -1,0 +1,21 @@
+html {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.body {
+    background-color: rgb(238,238,238);
+}
+
+.gallery li {
+    display: inline-block;
+    border: 0.4rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    vertical-align: middle;
+}
+
+.gallery li img {
+    width: 20rem;
+    
+}

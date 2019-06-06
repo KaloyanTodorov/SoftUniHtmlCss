@@ -1,6 +1,6 @@
-# 04 - Blog Layout Inline Block
+# 06 - Blog Layout Inline Block
 ------
-Problems for in-class lab for the [�Web Fundamentals - HTML 5�](https://softuni.bg/trainings/2265/web-fundamentals-html5-january-2019/) course @ **SoftUni**.
+Problems for in-class lab for the [�HTML & CSS�](https://softuni.bg/trainings/2375/html-and-css-may-2019) course @ **SoftUni**.
 
 Submit your solutions in the [SoftUni Judge System](https://judge.softuni.bg/Contests/1235/CSS-Box-Model).
 
@@ -9,6 +9,6 @@ Submit your solutions in the [SoftUni Judge System](https://judge.softuni.bg/Con
  * Change the **title** to **Blog Layout Inline Block**
  * Use **article** tag to create an article
     * Divide the article content into **header**, **section** and **footer** tags  
- * Use **aside** tag to create aside 
+ * Use **aside** tag to create aside for the Latest Posts 
  * Use background with color - **rgb(238, 238, 238)'**
  * Use **rgb(51, 51, 51)** color for the text
