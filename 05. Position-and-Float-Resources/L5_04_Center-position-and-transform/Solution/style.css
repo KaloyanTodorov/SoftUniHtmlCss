@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+section {
+    width: 500px;
+    height: 30rem;
+    margin: 10rem auto;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+}
+
