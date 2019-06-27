@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.label {
+    width: 100%;
+}
+
+.notes {
+    flex-direction: column;
+    flex-grow: 2;
+}
