@@ -1,11 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     box-sizing: border-box;
 }
 
 .container {
-    max-width: 65vw;
+    max-width: 50rem;
     display: flex;
     flex-wrap: wrap;
+    margin: 3em auto;
 }
 
 section {
@@ -14,8 +20,17 @@ section {
 }
 
 span {
-    border: 1px solid black;
+    border: 3px solid black;
     flex-grow: 1;
+    text-align: center;
+}
+
+.week span {
+    padding: 2em 0 5em 0;
+}
+
+.notes span {
+    padding-top: 0.5em;
 }
 
 .label {
