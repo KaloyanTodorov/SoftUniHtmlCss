@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font: 20px/1.5 'Open Sans', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+
+}
+
+.wrapper {
+    max-width: 65rem;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid #888;
+    border-radius: 5px;
+}
+
+.image {
+    background-image: url('../Requirements-and-Resources/image/image.png');
+    background-size: cover;
+    flex: 0 0 50%;
+}
+
+.calculator {
+    flex: 0 0 50%;
+    background-color: #f6f7f8;
+}
