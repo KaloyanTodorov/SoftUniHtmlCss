@@ -1,0 +1,50 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 50rem;
+    margin: 2rem auto;
+    background: #CCC;
+}
+
+.wrapper ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper li {
+    flex: 0 0 30%;
+    border: 0.5em solid #000;
+    list-style: outside none;
+    background: #FFF;
+    margin: 1em auto;
+
+    display: block;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.wrapper a {
+    
+}
+
+.wrapper li:before {
+    display: block;
+    padding-top: 177.78%;
+    content: '';
+    box-shadow: inset 0px 0px 45px -15px rgba(0,0,0,0.75);
+}
+
+.wrapper img {
+    display: block;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
