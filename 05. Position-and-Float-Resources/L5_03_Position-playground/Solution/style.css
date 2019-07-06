@@ -14,20 +14,49 @@
     background-image: linear-gradient(to right, #a83278, #c53764, #d64a4c, #db6531, #d38312);
 }
 
-section.card {
+.card {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    width: 25rem;
 }
 
-section.card:before {
+.media {
+    overflow: hidden;
+    position: relative;
+}
+
+.media:after {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.media:before {
     display: block;
     content: '';
     top: 0; left: 0; bottom: 0; right: 0;
     position: absolute;
     box-shadow:  3px 0px 60px 20px rgba(0,0,0,0.75) inset;
+    z-index: 1;
+}
+
+.media.portrait:after {
+    padding-top: 150%;
+}
+
+.media img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.media.portrait img {
+    width: auto;
+    height: 100%;
 }
 
 i {
@@ -35,6 +64,6 @@ i {
     font-size: 2rem;
     position: absolute;
     bottom: 0; right: 0;
-
     margin: 0 1rem 1rem 0;
+    z-index: 2;
 }
