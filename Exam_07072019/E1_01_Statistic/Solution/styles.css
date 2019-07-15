@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 18px/1.5 "Ubuntu", sans-serif;
+    color: #FFF;
+}
+
+body {
+    max-width: 60rem;
+    margin: 3rem auto;
+}
+
+.wrapper {
+    background-image: url("../Requirements-and-Resources/images/image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.wrapper:after {
+}
+
+.layer {
+    background-color: rgba(4, 31, 182, 0.65);
+}
+
+.wrapper .close a:after {
+    float: right;
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    content: '\f00d';
+    color: #FFF;
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em 0 0;
+}
+
+.wrapper ul {
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper li {
+    list-style: outside none;
+    text-align: center;
+}
+
+.wrapper .icon:before {
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    color: #ec8421;
+}
+
+.wrapper .icon.icon-people:before {
+    content: '\f0c0';
+}
+
+.wrapper .icon.icon-plane:before {
+    content: '\f072';
+}
+
+.wrapper .icon.icon-truck:before {
+    content: '\f0d1';
+}
+
+.wrapper .icon.icon-boat:before {
+    content: '\f21a';
+}
